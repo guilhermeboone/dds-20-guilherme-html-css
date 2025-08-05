@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+        <!-- Form= Agregar informações em formulário para tratar o envio -->
+    <form action="" method="">
+        <!-- Reserva uma área no formulario para agregar -->
+        <fieldset>
+            <legend>Dados de login</legend>
+        <!-- Caixa de nome -->
+         <!-- Label = texto para dizer o que colocar no input -->
+          <!-- Input = tipo de interação com o usuário -->
+        <label for="caixa nome">Nome:</label>
+        <input type="text" id="caixa nome"placeholder="Nome..." maxlength="15" minlength="1"/>
+            <br><br>
+
+        <label for="E-mail">E-mail:</label>
+        <input
+        type="e-mail"
+        name="e-mail"
+        id="e-mail"
+        placeholder="Digite seu e-mail"
+        />
+        <br><br>
+        <label for="Senha">Senha:</label>
+        <input
+        type="password"
+        name="Senha"
+        id="Senha"
+        placeholder="Digite sua senha"
+        />
+        
+        <br><br>
+        <!-- botão enviar -->
+         <input type="submit" value="Login">
+        <!-- botão resetar -->
+         <input type="reset" value="Resetar">
+
+        </fieldset>
+
+    </form>
+
+    <!-- Outros inputs -->
+
+    <h1> Outros inputs </h1>
+    <label for="data"> Data de nascimento: </label>
+    <br>
+    <input type="date" id="data">
+    <br> 
+    <input type="datetime-local">
+    <br>
+    <input type="time">
+    <br><br>
+
+    <label>
+        Telefone:
+    <input type="tel" 
+    name="telefone" 
+    id=" telefone"
+    placeholder="(00) 00000-0000"
+    />
+    </label>
+    <br><br>
+
+    <label>
+        Textão:
+        <textarea name="textão"
+        id="textao"
+        placeholder="Digite sua bio"
+        cols="30"
+        rows="5"
+        ></textarea>
+    </label>
+    <br><br>
+
+    <!-- caixa de cor -->
+     <label> 
+        Cor: 
+        <input type="color" name="" id="" />
+     </label>
+     <br><br>
+
+     <label> 
+        Número: 
+        <input type="number" min="-10" max="50" value="7" step="5"/> 
+     </label>
+     <br><br>
+
+     <label> 
+        Barrinha:
+        <br>
+        0<input type="range" min="-10" max="50" value="30" step="10"/> 
+     </label>
+     <br><br>
+
+     <!-- Caixinhas de seleção -->
+
+     <label for=""> Escolha seu curso </label>
+     <br>
+
+     <!-- Tipo bolinha -->
+      <input type="radio" name="curso" value="Corte"> Corte e costura
+      <input type="radio" name="curso" value="Programação"> Lógica  de programação
+      <input type="radio" name="curso" value="Solda"> Solda
+
+      <br><br>
+
+      <!-- Tipo caixinha -->
+       <label for="">Redes sociais</label>
+       <br>
+       <input type="checkbox" name="rede1" value="zap"> Zap zap
+       <input type="checkbox" name="rede2" value="face"> Face
+       <input type="checkbox" name="rede3" value="desativado"> Orkut
+
+       <br><br>
+       <!-- Caixa com opções -->
+        <label for="">Cidade</label>
+        <select name="" id="">
+            <option value="Toquio"> Tóquio</option>
+            <option value="Los Angeles"> Los Angeles</option>
+            <option value="Doha"> Doha</option>
+            <optgroup
+                name="BR" label="Brasil">
+            <option value="Brasilia" selected> Brasilia</option>
+            <option value="Rio de Janeiro" selected> Rio de Janeiro</option>
+            <option value="Salvador" selected> Salvador</option>
+            </optgroup>
+        </select>
+
+</body>
+</html>
