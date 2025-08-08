@@ -1,0 +1,36 @@
+/* Estilização por tags */
+
+ul{
+    background-color: rgb(255, 0, 0);
+    list-style: none;
+    /* list-style-image: url(https://ogimg.infoglobo.com.br/in/24029035-439-61f/FT1086A/760/lucas-ribamar.jpg); */
+    /* list-style-position: inside; */
+}
+
+li{
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+/* Estilização por ID */
+#caixa-rosa {
+background-color: pink;
+}
+
+#outra-caixa {
+background-color: purple;
+}
+
+/* Estilização por classe */
+.caixa{
+    background-color: white;
+    color:black;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+}
