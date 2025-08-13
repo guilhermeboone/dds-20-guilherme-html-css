@@ -1,0 +1,39 @@
+.fundoazul{
+    background-color: aqua;
+}
+
+.paragrafoverde{
+    background-color: greenyellow;
+}
+
+.fundoimg {
+    background-image: url(https://diariobahia.com.br/wp-content/uploads/2017/02/Amaral.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;   
+}
+
+.fundovertical{
+    background-image: url(https://diariobahia.com.br/wp-content/uploads/2017/02/Amaral.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    transform: rotate(90deg);
+}
+
+.imagemsemrepetir{
+    background-image: url(https://diariobahia.com.br/wp-content/uploads/2017/02/Amaral.jpg);
+    background-repeat: no-repeat;
+}
+
+.imagemcentralizada{
+    background-image: url(https://diariobahia.com.br/wp-content/uploads/2017/02/Amaral.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fundoamareloeimagem{
+    background-color: yellow;
+    background-image: url(https://diariobahia.com.br/wp-content/uploads/2017/02/Amaral.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+}
