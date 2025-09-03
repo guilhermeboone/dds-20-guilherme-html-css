@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Olá, sou um título</h1>
+
+    <p> Algo aqui pra me dizer que tem</p>
+    <p class="para"> Mais um texto aqui</p>
+    <p class="para" id="p3"> Vasco da Gama</p>
+
+    <h1> Transformers 4 - A era da extinção</h1>
+    <h1> Acabou </h1>
+
+    <h2 onclick=" console.log('Eu cliquei')">
+        Clique aqui
+
+    </h2>
+
+    <h2 onclick="cliquei()">
+        Aqui não pode
+    </h2>
+
+    <h1 onclick="shazam()"> 
+        troca cores
+    </h1>
+
+    <h1 onclick="quemFoi(this)">
+        Alo
+    </h1>
+
+    <p onclick="quemFoi(this)">
+        Fazendo também
+    </p>
+
+    <br><br>
+    <hr>
+
+    <h1>Outra área</h1>
+
+    Muda quando sai:
+    <!-- onchange = pega quando muda o foco -->
+    <input type="text" onchange="troca(this)">
+    <h3 id="textoTrocar">Texto aqui</h3>
+
+    <br><br>
+
+    Muda quando digito: 
+    <!-- oninput = pega quando há alterações na caixinha -->
+    <input type="text" oninput="trocaAgora(this)">
+    <h3 id="textoTrocarAgora">Texto aqui</h3>
+
+    <h1 onmouseover="viraVerde(this)"
+        onmouseout="viraAzul(this)">
+        Olha isso aqui
+    </h1>
+
+    <br><br><br><br><br>
+        <script src="interacao.js"></script>
+</body>
+</html>
